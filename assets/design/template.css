@@ -1,0 +1,52 @@
+*{
+    color: white;
+    margin: 0px;
+}
+body{
+    background-color: rgb(19, 19, 19);
+}
+.container-logo{
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(8, 8, 8);
+}
+.container-logo h1{
+    padding: 15px 0px 0px 15px;
+    font-size: 65px;
+}
+.sociais-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100px;
+}
+.social button{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(19, 19, 19);
+
+}
+.social-logo{
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100vw;
+    height: 800px;
+}
+.post p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+}
+.perfil-icon{
+    margin: 25px auto 25px auto;
+    width: 500px;
+    height: 520px;
+    border-radius: 50%;
+}
