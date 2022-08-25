@@ -7,47 +7,61 @@
     <title>Portfólio</title>
     <meta name="description" content="Página do portfólio">
     <link rel="stylesheet" href="./assets/design/template.css">
+    <link rel="stylesheet" href="./assets/design/bootstrap.min.css">
 </head>
-<body>
-    <header>
-        <div class="container-logo">
-            <h1>Vinicius Andrade</h1>
-        </div>
+<body class="black">
+    <header class="container-fluid">
+            <nav>
+                <div class="cabeçalho container-fluid">
+                        <h1>Vinicius Andrade</h1>
+                </div>
+            </nav>
     </header>
-    <section>
-        <div class="sociais-container">
-            <div class="social">
-                <button>
-                    <img class="social-logo" src="./assets/images/WhatsApp-logo.webp" alt="Whatsapp logo">
-                    <a href=""></a>
-                </button>
-            </div>
-            <div class="social">
-                <button>
-                    <img class="social-logo" src="./assets/images/youtube-logo.png" alt="Youtube logo">
-                    <a href="https://www.youtube.com/channel/UCloS88_0JuBdMgKxJAAcwUQ"></a>
-                </button>
-            </div>
-            <div class="social">
-                <button>
-                    <img class="social-logo" src="./assets/images/instagram-logo.png" alt="instagram logo">
-                    <a href=""></a>
-                </button>
-            </div>
-        </div>
-    </section>
-    <article>
+    <article class="container-fluid">
         <section>
-            <div class="post">
-                <img class="perfil-icon" src="./assets/images/hero.jpg" alt="Minha foto de perfil!!">
-                <p>Olá, me chamo Vinicius Andrade e trabalho como programador. :)</p>
-                <p>Se quiser pode entrar em contato se alguma dúvida sobre a área da programação</p>
-                <p>Essa página é simples e foi feita apenas com HTML5 e CSS3 mas tenho habilidades como:</p><br>
-                <p> -HTML e CSS3, Javascript, Git e Github, Inglês A2 - B1 e C#</p><br>
-                <p>Acho que é isso, qualquer coisa entre em contato!</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/instagram-logo.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/WhatsApp-logo.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" alt="">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section>
+            <div class="post container-fluid">
+                <h1>Vinicius Andrade</h1>
+                <p>   Olá, bem vindo(a) ao meu mini Portfólio!
+                    e antes que me pergunte eu usei as tecnologias <br>
+                    Html, css e Bootstrap5 para desenvolvelo!
+                    o Bootstrap otimizou bastante o tempo de trabalho. <br>
+                </p>
+                <br>
+                <p>
+                    Tenho conhecimento sobre html5, css3, javascript, bootstrap5, git - git hub e C#.
+                    No momento estou focando <br> no Front end, talvez daqu uns anos eu esteja atuando como FullStack 
+                    <br> Também consigo me comunicar com Inglês!
+                </p>
             </div>
         </section>
     </article>
-    
+    <script src="./assets/javascript/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,52 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Josefin+Sans:ital@0;1&display=swap');
 *{
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: white;
     margin: 0px;
 }
 body{
     background-color: rgb(19, 19, 19);
 }
-.container-logo{
-    width: 100vw;
-    height: 100px;
-    background-color: rgb(8, 8, 8);
-}
-.container-logo h1{
-    padding: 15px 0px 0px 15px;
-    font-size: 65px;
-}
-.sociais-container{
+.cabeçalho{
     display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    height: 100px;
+    height: 130px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    align-items: end;
 }
-.social button{
-    width: 150px;
-    height: 150px;
-    background-color: rgb(19, 19, 19);
-
-}
-.social-logo{
-    display: inline-block;
-    height: 110px;
-    width: 110px;
+.cabeçalho h1{
+    margin-left: 15px;
+    text-align: left;
+    font-size: 50px;
 }
 .post{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    height: 1000px;
     width: 100vw;
-    height: 800px;
+}
+.post h1{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
 }
 .post p{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
     text-align: center;
-    font-size: 35px;
-}
-.perfil-icon{
-    margin: 25px auto 25px auto;
-    width: 500px;
-    height: 520px;
-    border-radius: 50%;
+    padding-top: 15px;
+    font-size: 25px;
 }
