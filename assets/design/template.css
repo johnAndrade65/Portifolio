@@ -5,12 +5,9 @@
     color: white;
     margin: 0px;
 }
-body{
-    background-color: rgb(19, 19, 19);
-}
 .cabeçalho{
     display: flex;
-    height: 130px;
+    height: 90px;
     width: 100%;
     background-color: rgb(0, 0, 0);
     align-items: end;
@@ -25,7 +22,7 @@ body{
     height: 1000px;
     width: 100vw;
 }
-.post h1{
+.post h2{
     padding-top: 30px;
     text-align: center;
     font-size: 50px;
@@ -33,5 +30,25 @@ body{
 .post p{
     text-align: center;
     padding-top: 15px;
+    font-size: 25px;
+}
+.carousel-inner{
+    height: 50vw;
+    height: auto;
+}
+.highlight{
+    background-color: gold;
+    color: rgb(7, 7, 7);
+    font-weight: bolder;
+    padding: 2px 1px 0px 1px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(255, 0, 0);
+    width: 100vh;
+    height: 150px;
+}
+footer p{
+    color: white;
     font-size: 25px;
 }
